@@ -8,10 +8,12 @@ A personal "cloud journey" page hosted on a **private S3 bucket** and served glo
 
 ```mermaid
 flowchart LR
-    A\[Visitor browser] -->|HTTPS| B\[CloudFront distribution]
-    B -->|OAC, s3:GetObject only| C\[(Private S3 bucket)]
-    A -. direct URL .-> C
-    C -. Access Denied .-> A
+    V[Visitor browser]
+    CF[CloudFront distribution]
+    S3[(Private S3 bucket)]
+    V -->|HTTPS| CF
+    CF -->|"OAC: s3:GetObject only"| S3
+    V -.->|"Direct S3 URL: Access Denied"| S3
 ```
 
 ## Services used
