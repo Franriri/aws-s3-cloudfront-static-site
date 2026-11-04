@@ -50,7 +50,7 @@ flowchart LR
 |Open the CloudFront URL|Page loads over HTTPS|
 |Open the direct S3 object URL|`AccessDenied` (bucket is private)|
 
-!\[Access Denied on direct S3 URL](screenshots/s3-access-denied.png)
+![Access Denied on direct S3 URL](screenshots/s3-access-denied.png)
 
 ## Cost
 
