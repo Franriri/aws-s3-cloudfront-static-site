@@ -71,7 +71,7 @@ Free plan and credits. No trails, Insights, or WAF were enabled, so the cost sta
 - [ ] Practice a CloudFront **invalidation** after editing the page
 - [ ] Add a Python/Lambda automation
 
-\---
+---
 
 *Built by Fran. Starter page written with help from Claude.*
 
