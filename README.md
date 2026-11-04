@@ -66,10 +66,10 @@ Free plan and credits. No trails, Insights, or WAF were enabled, so the cost sta
 
 ## Next steps
 
-* \[ ] Rebuild the same setup with **Terraform**
-* \[ ] Add a **GitHub Actions** workflow to deploy on every push
-* \[ ] Practice a CloudFront **invalidation** after editing the page
-* \[ ] Add a Python/Lambda automation
+- [x] Started rebuilding it with Terraform (see my terraform-private-s3-bucket repository)
+- [ ] Add a **GitHub Actions** workflow to deploy on every push
+- [ ] Practice a CloudFront **invalidation** after editing the page
+- [ ] Add a Python/Lambda automation
 
 \---
 
