@@ -2,7 +2,7 @@
 
 A personal "cloud journey" page hosted on a **private S3 bucket** and served globally over **HTTPS through CloudFront**, using Origin Access Control (OAC). Built as my first hands-on AWS project while moving from service desk (8+ years) into cloud engineering.
 
-**Live site:**
+**Live site:** https://d3hczph15si19v.cloudfront.net
 
 ![Live site](screenshots/live-site.png)
 
